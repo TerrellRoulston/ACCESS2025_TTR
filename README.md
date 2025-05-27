@@ -1,1 +1,1 @@
-Information Here
+This repository contains material for the Data Visualization in R workshop, which will be offered as part of the 22nd Atlantic Canada Coastal & Estuarine Science Society (ACCESS) at Acadia University, May 28-30, 2025.
