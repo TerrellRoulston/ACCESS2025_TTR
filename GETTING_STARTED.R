@@ -10,6 +10,8 @@
 
 install.packages('tidyverse') # Includes other packages like: ggplot2 (plotting), dplyr (data manipulation/grammar), etc.
 install.packages('ggeffects') # Vizualizing 
+install.packages('broom')     # Tidy model outputs
+install.packages('emmeans')   # Model contrasts (just in case)
 
 # Packages are install from the Comprehensive R Archive Network (CRAN), a repository of code!
 # IF you get an ---ERROR--- while install packages the most like culprit is your version of R needs to be updated
@@ -19,6 +21,8 @@ install.packages('ggeffects') # Vizualizing
 
 library(tidyverse)
 library(ggeffects)
+library(broom)
+library(emmeans)
 
 # You may see a list of conflicts, this is not to worry...
 # This happens when functions from different packages share the same name
